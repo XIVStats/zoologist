@@ -1,0 +1,97 @@
+{
+	"name": "${REPO}",
+	"version": "0.0.1",
+	"description": "Description",
+	"main": "lib/index.js",
+	"files": [
+		"lib/**/*.js"
+	],
+	"scripts": {
+		"build": "tsc",
+		"commit": "cz",
+		"docs": "typedoc --out docs/api --excludeNotDocumented --hideBreadcrumbs --readme none  src/**/*.ts",
+		"test": "jest",
+		"test:ci": "jest --ci --reporters=default --reporters=jest-junit --collect-coverage",
+		"format": "prettier --write src/**/*.ts src/**/*.test.ts",
+		"format:check": "prettier --check src/**/*.ts src/**/*.test.ts",
+		"lint": "eslint --ext .ts --ext .js src --color",
+		"lint:fix": "eslint --fix --ext .ts --ext .js src --color",
+		"prepare": "husky install"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/${OWNER}/${REPO}.git"
+	},
+	"keywords": [],
+	"author": {
+		"name": "Peter Reid",
+		"email": "peter@reidweb.com",
+		"url": "https://reidweb.com"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/${OWNER}/${REPO}/issues"
+	},
+	"engines": {
+		"node": ">14",
+		"npm": ">6"
+	},
+	"homepage": "https://github.com/${OWNER}/${REPO}#readme",
+	"dependencies": {},
+	"devDependencies": {
+		"@commitlint/cli": "^13.1.0",
+		"@commitlint/config-conventional": "^13.1.0",
+		"@types/jest": "^26.0.24",
+		"@typescript-eslint/eslint-plugin": "^4.28.5",
+		"@typescript-eslint/parser": "^4.28.5",
+		"babel-jest": "^27.0.6",
+		"commitizen": "^4.2.4",
+		"cz-conventional-changelog": "^3.3.0",
+		"eslint": "^7.32.0",
+		"eslint-config-airbnb-typescript": "^12.3.1",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-import": "^2.23.4",
+		"eslint-plugin-jsx-a11y": "^6.4.1",
+		"eslint-plugin-notice": "^0.9.10",
+		"eslint-plugin-prettier": "^3.4.0",
+		"eslint-plugin-react": "^7.24.0",
+		"eslint-plugin-react-hooks": "^4.2.0",
+		"husky": "^7.0.1",
+		"jest": "^27.0.6",
+		"jest-junit": "^12.0.0",
+		"prettier": "^2.3.2",
+		"prettier-eslint": "^13.0.0",
+		"prettier-eslint-cli": "^5.0.1",
+		"ts-jest": "^27.0.4",
+		"typedoc": "^0.21.9",
+		"typedoc-plugin-markdown": "^3.10.4",
+		"typescript": "^4.3.5"
+	},
+	"husky": {
+		"hooks": {
+			"prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
+			"commit-msg": "echo \"[Husky] commit-msg\"",
+			"pre-commit": "echo \"[Husky] pre-commit\"",
+			"pre-push": "echo \"[Husky] pre-push\""
+		}
+	},
+	"commitlint": {
+		"extends": [
+			"@commitlint/config-conventional"
+		]
+	},
+	"jest-junit": {
+		"outputDirectory": "reports",
+		"outputName": "jest-junit.xml",
+		"ancestorSeparator": " › ",
+		"uniqueOutputName": "false",
+		"suiteNameTemplate": "{filepath}",
+		"classNameTemplate": "{classname}",
+		"titleTemplate": "{title}"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	}
+}
