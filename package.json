@@ -1,5 +1,5 @@
 {
-	"name": "${REPO}",
+	"name": "zoologist",
 	"version": "0.0.1",
 	"description": "Description",
 	"main": "lib/index.js",
@@ -20,7 +20,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/${OWNER}/${REPO}.git"
+		"url": "git+https://github.com/xivstats/zoologist.git"
 	},
 	"keywords": [],
 	"author": {
@@ -30,13 +30,13 @@
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/${OWNER}/${REPO}/issues"
+		"url": "https://github.com/xivstats/zoologist/issues"
 	},
 	"engines": {
 		"node": ">14",
 		"npm": ">6"
 	},
-	"homepage": "https://github.com/${OWNER}/${REPO}#readme",
+	"homepage": "https://github.com/xivstats/zoologist#readme",
 	"dependencies": {},
 	"devDependencies": {
 		"@commitlint/cli": "^13.1.0",

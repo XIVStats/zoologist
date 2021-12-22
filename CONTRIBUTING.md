@@ -34,8 +34,8 @@ The following tools need to be installed on your system prior to install the pro
 First fork the repository, and then run the following commands to clone the repository locally.
 
 ```shell
-$ git clone https://github.com/{your-account}/${REPO}.git
-$ cd ${REPO}
+$ git clone https://github.com/{your-account}/zoologist.git
+$ cd zoologist
 $ npm install
 ```
 
@@ -102,15 +102,15 @@ $ npm run format
 ### Step 1: Find something to work on
 
 If you want to contribute a specific feature or fix you have in mind, look at active [pull
-requests](https://github.com/${OWNER}/${REPO}/pulls) to see if someone else is already working on it. If not, you can start
+requests](https://github.com/xivstats/zoologist/pulls) to see if someone else is already working on it. If not, you can start
 contributing your changes.
 
 On the other hand, if you are here looking for an issue to work on, explore our [backlog of
-issues](https://github.com/${OWNER}/${REPO}/issues) and find something that piques your interest. We have labeled all of our
+issues](https://github.com/xivstats/zoologist/issues) and find something that piques your interest. We have labeled all of our
 issues for easy searching.
 
 If you are looking for your first contribution, the ['good first issue'
-label](https://github.com/${OWNER}/${REPO}/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) will be of help.
+label](https://github.com/xivstats/zoologist/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) will be of help.
 
 It's a good idea to keep the priority of issues in mind when deciding what to
 work on. If we have labelled an issue as `P2`, it means it's something we won't

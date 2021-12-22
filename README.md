@@ -1,9 +1,9 @@
-# ${REPO}
+# zoologist
 
-[![NPM version](https://badge.fury.io/js/${REPO}.svg)](https://www.npmjs.com/package/${REPO})
-[![Build, Test & Lint](https://github.com/${OWNER}/${REPO}/actions/workflows/build.yml/badge.svg)](https://github.com/${OWNER}/${REPO}/actions/workflows/build.yml)
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/${OWNER}/${REPO}/main/LICENSE)
-[![npm downloads](https://img.shields.io/npm/dm/${REPO}.svg)](https://www.npmjs.com/package/${REPO})
+[![NPM version](https://badge.fury.io/js/%40xivstats%2Fzoologist.svg)](https://www.npmjs.com/package/@xivstats/zoologist)
+[![Build, Test & Lint](https://github.com/xivstats/zoologist/actions/workflows/build.yml/badge.svg)](https://github.com/xivstats/zoologist/actions/workflows/build.yml)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/xivstats/zoologist/main/LICENSE)
+[![npm downloads](https://img.shields.io/npm/dm/zoologist.svg)](https://www.npmjs.com/package/zoologist)
 
 Briefly describe your module here
 
@@ -20,13 +20,13 @@ Jump To:
 ### 1. Installation
 
 ```shell
-$ npm install --save ${REPO}
+$ npm install --save zoologist
 ```
 
 or if you're using yarn
 
 ```shell
-$ yarn install ${REPO}
+$ yarn install zoologist
 ```
 
 ### 2. Imports

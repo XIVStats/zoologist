@@ -6,7 +6,7 @@ labels: feature-request, documentation, needs-triage
 ---
 
 <!--
-- want to help? submit a pull request here: https://github.com/${OWNER}/${REPO}
+- want to help? submit a pull request here: https://github.com/xivstats/zoologist
 -->
 
 <!--

@@ -2,7 +2,7 @@
 
 ## 1 - Create a new release
 
-Create a [new release](https://docs.github.com/en/github/administering-a-repository/releasing-projects-on-github/managing-releases-in-a-repository) for the repository from the [releases tab](https://github.com/${OWNER}/${REPO}/releases).
+Create a [new release](https://docs.github.com/en/github/administering-a-repository/releasing-projects-on-github/managing-releases-in-a-repository) for the repository from the [releases tab](https://github.com/xivstats/zoologist/releases).
 
 For tag version enter the desired version without the `v` (we will come back to this) against the `main` branch.
 
@@ -10,7 +10,7 @@ Title the release as you want, and enter a description as desired.
 
 ## 2 - Wait for the release action to execute
 
-Creating the above release should trigger a build of the [release workflow here](https://github.com/${OWNER}/${REPO}/actions/workflows/release.yml).
+Creating the above release should trigger a build of the [release workflow here](https://github.com/xivstats/zoologist/actions/workflows/release.yml).
 
 Wait for that to complete successfully.
 

@@ -9,7 +9,7 @@ labels: needs-triage, guidance
 
 <!--
 ⚠️ Important Information
-For support questions, please first reference our [documentation](https://github.com/${OWNER}/${REPO}/docs), then use [GitHub Discussions](https://github.com/${OWNER}/${REPO}/discussions). This repository's issues are intended for feature requests and bug reports.
+For support questions, please first reference our [documentation](https://github.com/xivstats/zoologist/docs), then use [GitHub Discussions](https://github.com/xivstats/zoologist/discussions). This repository's issues are intended for feature requests and bug reports.
 -->
 
 ### The Question
